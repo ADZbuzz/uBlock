@@ -30,6 +30,33 @@ h2 {
     padding: 0.2em;
     text-align: center;
     }
+.adzbuzz-block {
+    width: 100%;
+    height: 5px;
+    margin: 5px 0 5px;
+    padding: 2px !important;
+    background-color: #eee;
+}
+.adzbuzz-row {
+    width: 75%;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: #eee !important;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+h2.adzbuzz-link {
+    padding: 0;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    font-size: 12px;
+    background-color: #fff !important;
+}
+h2.adzbuzz-link a{
+    text-align: center;
+}
+
 h2:nth-of-type(1) {
     margin-top: 0;
     }

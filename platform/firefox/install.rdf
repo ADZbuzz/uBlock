@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <r:RDF xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.mozilla.org/2004/em-rdf#">
     <r:Description about="urn:mozilla:install-manifest">
-        <id>uBlock0@raymondhill.net</id>
-        <version>{version}</version>
-        <name>{name}</name>
-        <description>{description}</description>
-        <homepageURL>{homepage}</homepageURL>
-        <creator>{author}</creator>
+         <id>ublock@adzbuzz.com</id>
+        <version>0.0.0.1</version>
+        <name>ADZbuzz uBlock</name>
+        <description>ADZbuzz fork of the famous uBlock. A multi-purpose blocker for the user, by the user.</description>
+        <homepageURL>https://github.com/gorhill/uBlock</homepageURL>
+        <creator>ADZbuzz Developers and All uBlock contributors</creator>
         <developer>Deathamns</developer>
         <developer>Alex Vallat</developer>
         <developer>Manuel Reimer</developer>

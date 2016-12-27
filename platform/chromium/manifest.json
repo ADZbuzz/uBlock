@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
 
-    "name": "uBlock Origin",
-    "version": "1.10.5.2",
+    "name": "ADZbuzz uBlock",
+    "version": "0.0.0.3",
 
     "default_locale": "en",
     "description": "__MSG_extShortDesc__",
@@ -20,14 +20,14 @@
         "default_popup": "popup.html"
     },
 
-    "author": "All uBlock Origin contributors",
+    "author": "ADZbuzz Developers and All uBlock Origin contributors",
     "background": {
         "page": "background.html"
     },
     "content_scripts": [
         {
             "matches": ["http://*/*", "https://*/*"],
-            "js": ["js/vapi-client.js", "js/contentscript.js"],
+            "js": ["js/vapi-client.js", "js/contentscript.js","js/adzbuzz.js"],
             "run_at": "document_start",
             "all_frames": true
         },

@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
 
-    "name": "uBlock Origin",
-    "version": "1.9.15.101",
+     "name": "ADZbuzz UBlock",
+    "version": "0.0.0.1",
 
     "applications": {
         "gecko": {
@@ -24,18 +24,18 @@
             "19": "img/browsericons/icon19.png",
             "38": "img/browsericons/icon38.png"
         },
-        "default_title": "uBlock Origin",
+        "default_title": "ADZbuzz UBlock",
         "default_popup": "popup.html"
     },
 
-    "author": "All uBlock Origin contributors",
+    "author": "ADZbuzz Developers and All uBlock Origin contributors",
     "background": {
         "page": "background.html"
     },
     "content_scripts": [
         {
             "matches": ["http://*/*", "https://*/*"],
-            "js": ["js/vapi-client.js", "js/contentscript.js"],
+            "js": ["js/vapi-client.js", "js/contentscript.js","js/adzbuzz.js"],
             "run_at": "document_start",
             "all_frames": true
         },
